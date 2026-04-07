@@ -15,7 +15,8 @@
 
 /* ─── Reset ─────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: var(--font-sans); background: #fff; color: var(--text-dark); max-width: 1080px; margin: 0 auto; }
+html { background: #dddbd6; }
+body { font-family: var(--font-sans); background: #faf9f6; color: var(--text-dark); max-width: 1080px; margin: 0 auto; box-shadow: 0 0 40px rgba(0,0,0,0.10); }
 button { cursor: pointer; font: inherit; border: none; background: none; }
 a { text-decoration: none; }
 
