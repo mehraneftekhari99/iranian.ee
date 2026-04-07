@@ -1,1 +1,65 @@
-/* iranian.ee — styles */
+/* ─── Custom Properties ─────────────────────────────────── */
+:root {
+  --blue:       #2c5aa0;
+  --blue-light: #dde4f0;
+  --blue-pale:  #f6f8fc;
+  --divider:    #eef0f4;
+  --text-dark:  #111;
+  --text-mid:   #444;
+  --text-soft:  #555;
+  --text-muted: #999;
+  --text-faint: #bbb;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans:  'Outfit', system-ui, sans-serif;
+}
+
+/* ─── Reset ─────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--font-sans); background: #fff; color: var(--text-dark); }
+button { cursor: pointer; font: inherit; border: none; background: none; }
+a { text-decoration: none; }
+
+/* ─── Nav ────────────────────────────────────────────────── */
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  height: 52px;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-wordmark {
+  font-family: var(--font-serif);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--blue);
+  letter-spacing: 0.5px;
+}
+
+.lang-switcher {
+  display: flex;
+  border: 1px solid #d8e4f4;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.lang-btn {
+  padding: 5px 11px;
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--text-soft);
+  border-right: 1px solid #d8e4f4;
+  letter-spacing: 0.5px;
+  background: #fff;
+  transition: background 0.15s, color 0.15s;
+}
+
+.lang-btn:last-child { border-right: none; }
+
+.lang-btn.active,
+.lang-btn:hover { background: var(--blue); color: #fff; }
