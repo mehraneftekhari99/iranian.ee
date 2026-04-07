@@ -187,7 +187,7 @@ a { text-decoration: none; }
   font-weight: 300;
   color: var(--text-mid);
   line-height: 1.85;
-  max-width: 660px;
+  max-width: 640px;
 }
 
 .vision-text strong {
