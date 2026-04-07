@@ -252,3 +252,58 @@ a { text-decoration: none; }
   color: var(--text-faint);
   letter-spacing: 0.3px;
 }
+
+/* ─── Responsive — ≤640px ────────────────────────────────── */
+@media (max-width: 640px) {
+  .site-nav {
+    padding: 0 20px;
+    height: 48px;
+  }
+
+  .lang-switcher {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .lang-switcher::-webkit-scrollbar { display: none; }
+
+  .hero      { padding: 36px 20px 32px; }
+  .mission   { padding: 36px 20px; }
+  .functions { padding: 36px 20px; }
+  .vision    { padding: 36px 20px; }
+  .social    { padding: 36px 20px; }
+
+  .site-footer { padding: 16px 20px; }
+
+  .functions-grid { grid-template-columns: 1fr; }
+
+  .hero-title  { font-size: 32px; }
+  .mission-text { font-size: 18px; }
+}
+
+/* ─── RTL overrides ──────────────────────────────────────── */
+html[dir="rtl"] .mission,
+html[dir="rtl"] .functions,
+html[dir="rtl"] .vision,
+html[dir="rtl"] .social,
+html[dir="rtl"] .site-footer {
+  text-align: right;
+}
+
+html[dir="rtl"] .site-footer {
+  justify-content: flex-start;
+}
+
+/* Disable letter-spacing for Arabic/Persian/Kurdish script */
+html[dir="rtl"] .section-label,
+html[dir="rtl"] .fn-number,
+html[dir="rtl"] .fn-badge,
+html[dir="rtl"] .lang-btn {
+  letter-spacing: 0;
+}
+
+/* Social link RTL — reverse icon/text order */
+html[dir="rtl"] .social-link {
+  flex-direction: row-reverse;
+}
