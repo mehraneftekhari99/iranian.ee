@@ -4,6 +4,7 @@ let currentLang = 'en';
 
 const translations = {
   en: {
+    hero_title:     'Iranian Electronic Embassy',
     tagline:        'A non-partisan, civic-oriented digital infrastructure serving Iranian citizens and communities around the world.',
     mission_label:  'Mission',
     mission_text:   'To serve as a neutral, accessible, and technology-driven point of contact for Iranian civil matters internationally — fostering connections between individuals, organisations, and resources.',
@@ -27,6 +28,7 @@ const translations = {
   },
 
   fa: {
+    hero_title:     'سفارت الکترونیک ایرانی',
     tagline:        'یک زیرساخت دیجیتال غیرسیاسی و مدنی در خدمت شهروندان و جوامع ایرانی در سراسر جهان.',
     mission_label:  'مأموریت',
     mission_text:   'خدمت به‌عنوان یک نقطه تماس خنثی، در دسترس و مبتنی بر فناوری برای امور مدنی ایرانیان در سطح بین‌الملل — با تقویت پیوندها میان افراد، سازمان‌ها و منابع.',
@@ -50,6 +52,7 @@ const translations = {
   },
 
   ku: {
+    hero_title:     'سفارتی ئەلیکترۆنیکی ئێران',
     tagline:        'بنەمایەکی دیجیتاڵی نابەکارگیر و هاوکاری بۆ خزمەتگوزارییکردن بە هاوڵاتیانی ئێرانی و کۆمەڵگاکانیان لەسەرانسەری جیهان.',
     mission_label:  'ئەرک',
     mission_text:   'خزمەتگوزارییکردن وەکو پەیوەندییەکی نیترال، بەدەستگەی و تەکنەلۆجییانە بۆ کاروباری مەدەنی ئێرانیان لە ئاستی نێودەوڵەتیدا — بە پەرەپێدانی پەیوەندییەکان لەنێوان تاکەکان، ڕێکخراوەکان و سەرچاوەکانیان.',
@@ -73,6 +76,7 @@ const translations = {
   },
 
   ar: {
+    hero_title:     'السفارة الإلكترونية الإيرانية',
     tagline:        'بنية تحتية رقمية مدنية وغير حزبية تخدم المواطنين الإيرانيين والمجتمعات الإيرانية حول العالم.',
     mission_label:  'المهمة',
     mission_text:   'العمل كنقطة اتصال محايدة وسهلة الوصول وقائمة على التكنولوجيا للشؤون المدنية الإيرانية على الصعيد الدولي — وتعزيز الروابط بين الأفراد والمنظمات والموارد.',
@@ -96,6 +100,7 @@ const translations = {
   },
 
   tr: {
+    hero_title:     'İran Elektronik Büyükelçiliği',
     tagline:        'Dünya genelindeki İran vatandaşlarına ve topluluklarına hizmet eden, partizan olmayan, sivil odaklı dijital altyapı.',
     mission_label:  'Misyon',
     mission_text:   'İran\'ın uluslararası sivil meselelerinde tarafsız, erişilebilir ve teknoloji odaklı bir iletişim noktası olarak hizmet etmek — bireyler, kuruluşlar ve kaynaklar arasındaki bağlantıları güçlendirerek.',
