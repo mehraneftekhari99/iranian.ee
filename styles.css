@@ -35,7 +35,7 @@ a { text-decoration: none; }
 
 .nav-wordmark {
   font-family: var(--font-serif);
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
   color: var(--blue);
   letter-spacing: 0.5px;
@@ -50,7 +50,7 @@ a { text-decoration: none; }
 
 .lang-btn {
   padding: 5px 11px;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 500;
   color: var(--text-soft);
   border-right: 1px solid #d8e4f4;
@@ -72,7 +72,7 @@ a { text-decoration: none; }
 
 .hero-title {
   font-family: var(--font-serif);
-  font-size: clamp(36px, 5vw, 54px);
+  font-size: clamp(40px, 5vw, 60px);
   font-weight: 700;
   color: #fff;
   line-height: 1.05;
@@ -81,7 +81,7 @@ a { text-decoration: none; }
 }
 
 .hero-tagline {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.82);
   max-width: 520px;
@@ -96,7 +96,7 @@ a { text-decoration: none; }
 }
 
 .section-label {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 500;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -106,7 +106,7 @@ a { text-decoration: none; }
 
 .mission-text {
   font-family: var(--font-serif);
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 400;
   font-style: italic;
   color: var(--text-mid);
@@ -121,7 +121,7 @@ a { text-decoration: none; }
 
 .functions-title {
   font-family: var(--font-serif);
-  font-size: 30px;
+  font-size: 34px;
   font-weight: 700;
   color: var(--text-dark);
   margin-bottom: 28px;
@@ -140,7 +140,7 @@ a { text-decoration: none; }
 }
 
 .fn-number {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 500;
   letter-spacing: 2px;
   color: var(--blue);
@@ -149,7 +149,7 @@ a { text-decoration: none; }
 
 .fn-title {
   font-family: var(--font-serif);
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
   color: var(--text-dark);
   margin-bottom: 10px;
@@ -157,7 +157,7 @@ a { text-decoration: none; }
 }
 
 .fn-desc {
-  font-size: 12.5px;
+  font-size: 14px;
   font-weight: 300;
   color: var(--text-soft);
   line-height: 1.7;
@@ -166,7 +166,7 @@ a { text-decoration: none; }
 
 .fn-badge {
   display: inline-block;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 500;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -183,7 +183,7 @@ a { text-decoration: none; }
 }
 
 .vision-text {
-  font-size: 13.5px;
+  font-size: 15px;
   font-weight: 300;
   color: var(--text-mid);
   line-height: 1.85;
@@ -203,14 +203,14 @@ a { text-decoration: none; }
 
 .social-title {
   font-family: var(--font-serif);
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 700;
   color: var(--text-dark);
   margin-bottom: 12px;
 }
 
 .social-text {
-  font-size: 13.5px;
+  font-size: 15px;
   font-weight: 300;
   color: var(--text-soft);
   line-height: 1.75;
@@ -224,7 +224,7 @@ a { text-decoration: none; }
   gap: 9px;
   background: var(--blue);
   color: #fff;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 500;
   letter-spacing: 0.3px;
   padding: 11px 22px;
@@ -247,7 +247,7 @@ a { text-decoration: none; }
 }
 
 .footer-text {
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 300;
   color: var(--text-faint);
   letter-spacing: 0.3px;
@@ -278,8 +278,8 @@ a { text-decoration: none; }
 
   .functions-grid { grid-template-columns: 1fr; }
 
-  .hero-title  { font-size: 32px; }
-  .mission-text { font-size: 18px; }
+  .hero-title  { font-size: 36px; }
+  .mission-text { font-size: 20px; }
 }
 
 /* ─── RTL overrides ──────────────────────────────────────── */
