@@ -15,7 +15,7 @@
 
 /* ─── Reset ─────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: var(--font-sans); background: #fff; color: var(--text-dark); }
+body { font-family: var(--font-sans); background: #fff; color: var(--text-dark); max-width: 1080px; margin: 0 auto; }
 button { cursor: pointer; font: inherit; border: none; background: none; }
 a { text-decoration: none; }
 
@@ -107,9 +107,9 @@ a { text-decoration: none; }
 .mission-text {
   font-family: var(--font-serif);
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 400;
   font-style: italic;
-  color: var(--text-dark);
+  color: var(--text-mid);
   line-height: 1.6;
 }
 
@@ -283,6 +283,9 @@ a { text-decoration: none; }
 }
 
 /* ─── RTL overrides ──────────────────────────────────────── */
+/* Nav always stays LTR regardless of page direction */
+.site-nav { direction: ltr; }
+
 html[dir="rtl"] .mission,
 html[dir="rtl"] .functions,
 html[dir="rtl"] .vision,
