@@ -63,3 +63,52 @@ a { text-decoration: none; }
 
 .lang-btn.active,
 .lang-btn:hover { background: var(--blue); color: #fff; }
+
+/* ─── Hero ───────────────────────────────────────────────── */
+.hero {
+  background: var(--blue);
+  padding: 52px 40px 48px;
+}
+
+.hero-title {
+  font-family: var(--font-serif);
+  font-size: clamp(36px, 5vw, 54px);
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+  margin-bottom: 20px;
+}
+
+.hero-tagline {
+  font-size: 15px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.82);
+  max-width: 520px;
+  line-height: 1.75;
+}
+
+/* ─── Mission ────────────────────────────────────────────── */
+.mission {
+  padding: 52px 40px;
+  border-bottom: 1px solid var(--divider);
+  max-width: 760px;
+}
+
+.section-label {
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--blue);
+  margin-bottom: 16px;
+}
+
+.mission-text {
+  font-family: var(--font-serif);
+  font-size: 22px;
+  font-weight: 600;
+  font-style: italic;
+  color: var(--text-dark);
+  line-height: 1.6;
+}
